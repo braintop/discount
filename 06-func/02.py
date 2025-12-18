@@ -14,8 +14,9 @@ def is_even3(num):
     return num % 2 == 0
 
 
-num=is_even(2)
-print(num)
+answer=is_even2(2)
+print(answer)
+
 if is_even2(2):
     print("send whats app")
 else:

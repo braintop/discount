@@ -1,10 +1,8 @@
 names = ["john", "jane", "jim", "john"]
-for name in names:
+first , *middle, last = names
+print(first)
+print(middle)
+print(last)
+print(middle[0])
+for name in middle:
     print(name, end=", ")
-
-for i in range(len(names)):
-    print(names[i], end=", ")
-
-# for i, name in enumerate(names):
-#     print(i, name)
-
